@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { projects } from "../data/projects";
-import { ArrowLeft, ExternalLink, Play, Pause } from "lucide-react";
+import { ArrowLeft, ExternalLink, Play} from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 const ProjectDetail = () => {

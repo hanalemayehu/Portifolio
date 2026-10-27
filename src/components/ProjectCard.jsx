@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, ArrowRight, Play, Github } from "lucide-react";
+import { ExternalLink, ArrowRight, Play} from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project, index }) => {
