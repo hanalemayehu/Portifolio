@@ -18,6 +18,8 @@ const Home = () => {
       <About />
       <Skills />
 
+  
+
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6 max-w-7xl mx-auto">
         <motion.div

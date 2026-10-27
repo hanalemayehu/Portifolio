@@ -13,6 +13,45 @@
   }
 }
 
+
+.cv-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 12px 22px;
+  background-color: #2d5b46;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.cv-button:hover {
+  background-color: #214332;
+}
+
+.download-cv-btn {
+  display: inline-block;
+  padding: 9px 16px;
+  background-color: #2d5b46;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.download-cv-btn:hover {
+  background-color: #214332;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
